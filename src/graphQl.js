@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const openSource = {
-  githubConvertedToken: "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",
+  githubConvertedToken: "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",
   githubUserName: "vjcvl",
 };
 
