@@ -1,7 +1,8 @@
 import axios from "axios";
 
+
 export const openSource = {
-  githubConvertedToken: "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=12313131asdadada",
+  githubConvertedToken: "ghp_mFdRf2J2ku3bKkUt=JUXSI60mvrUym53O6zh8",
   githubUserName: "vjcvl",
 };
 
@@ -87,7 +88,7 @@ export const openSource = {
 }
   }
 export const baseUrl = "https://api.github.com/graphql";
-let token = openSource.githubConvertedToken.split("=")[0]
+let token = openSource.githubConvertedToken.split("=").join('')
 console.log(token)
 export const headers = {
   "Content-Type": "application/json",
